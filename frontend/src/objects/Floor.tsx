@@ -6,8 +6,8 @@ export default function Floor() {
         <Grid
             args={[2,2]}
             infiniteGrid={true}
-            fadeDistance={25}
-            fadeStrength={5}
+            fadeDistance={40}
+            fadeStrength={4}
         />
     )
 }

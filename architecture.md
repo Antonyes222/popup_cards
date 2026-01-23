@@ -2,6 +2,7 @@ src/
 ├─ pages/            # one folder per page
 │   ├─ Home.jsx
 │   ├─ About.jsx
+│   ├─ Create.jsx
 │   └─ Gallery.jsx
 ├─ layouts/          # reusable layouts (with Canvas, navbar, footer)
 │   ├─ DefaultLayout.jsx
@@ -15,3 +16,7 @@ src/
 ├─ assets/           # textures, models
 ├─ App.jsx
 └─ index.jsx
+
+
+# 1.15.2026
+Give ts card an open and close function, NOW! 

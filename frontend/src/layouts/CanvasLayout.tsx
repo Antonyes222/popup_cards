@@ -12,7 +12,7 @@ interface CanvasLayoutProps{
 export default function CanvasLayout({scene: Scene, children}: CanvasLayoutProps) {
     return(
         <div className="fixed inset-0 w-screen h-screen z-0">
-            <Canvas shadows camera={{ position: [0, 2, 5], fov: 60 }} className="w-full h-full">
+            <Canvas shadows camera={{ position: [0, 5, 10], fov: 60 }} className="w-full h-full">
                 <OrbitControls/>
                 <Suspense fallback={null}>
                     <Scene/>

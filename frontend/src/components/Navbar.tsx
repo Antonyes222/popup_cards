@@ -15,6 +15,11 @@ export default function Navbar() {
                         About
                     </a>
                 </li>
+                <li>
+                    <a href="/create" className="text-black hover:text-gray-400">
+                        Create
+                    </a>
+                </li>
             </ul>
         </nav>  
     )
