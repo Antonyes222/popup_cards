@@ -2,10 +2,12 @@
 import CanvasLayout from '../layouts/CanvasLayout.tsx'
 import CreateScene from '../scenes/CreateScene.tsx'
 
+import Toolbar from '../components/Toolbar.tsx'
+
 export default function Create() {
     return(
         <CanvasLayout scene={CreateScene}>
-            <></>
+            <Toolbar/>
         </CanvasLayout>
     )
 }
