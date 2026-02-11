@@ -9,6 +9,9 @@ export default function Toolbar() {
     <nav className="justify-center fixed bottom-0 left-0 pointer-events-auto z-10">
         <ul>
             <li>
+                <button className="cursor-pointer text-4xl hover:text-5xl">Open</button>
+            </li>
+            <li>
                 <button className="cursor-pointer text-4xl hover:text-5xl">Add</button>
             </li>
             <li>

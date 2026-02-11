@@ -1,7 +1,5 @@
 import { Canvas } from '@react-three/fiber'
 
-import { OrbitControls } from '@react-three/drei'
-
 import { Suspense } from 'react'
 
 interface CanvasLayoutProps{
@@ -13,7 +11,6 @@ export default function CanvasLayout({scene: Scene, children}: CanvasLayoutProps
     return(
         <div className="fixed inset-0 w-screen h-screen z-0">
             <Canvas shadows camera={{ position: [0, 5, 10], fov: 60 }} className="w-full h-full">
-                <OrbitControls/>
                 <Suspense fallback={null}>
                     <Scene/>
                 </Suspense>
